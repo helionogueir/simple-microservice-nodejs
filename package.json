@@ -1,0 +1,33 @@
+{
+  "name": "simple-microservice-nodejs",
+  "version": "0.0.1",
+  "description": "Simple Micro-service with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node authorization.js && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helionogueir/simple-microservice-nodejs.git"
+  },
+  "keywords": [
+    "Microservice",
+    "MS",
+    "Node"
+  ],
+  "author": "Helio Nogueira <helio.nogueir@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helionogueir/simple-microservice-nodejs/issues"
+  },
+  "homepage": "https://github.com/helionogueir/simple-microservice-nodejs#readme",
+  "dependencies": {
+    "express": "4.16.*",
+    "hnhttpstatuscode": "0.0.*",
+    "jsonwebtoken": "8.3.*",
+    "knex": "0.15.*",
+    "mysql": "2.16.*",
+    "os": "0.1.*"
+  }
+}

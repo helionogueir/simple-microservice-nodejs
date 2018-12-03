@@ -1,0 +1,26 @@
+{
+    "environment": {
+        "name": "development"
+    },
+    "dsn": {
+        "driver": "mysql",
+        "host": {
+            "read": "simple-microservice-nodejs-database",
+            "write": "simple-microservice-nodejs-database"
+        },
+        "username": "root",
+        "password": "root",
+        "dbname": "simple-microservice-nodejs",
+        "charset": "UTF8",
+        "port": 3306,
+        "timeout": 1000
+    },
+    "jsonwebtoken": {
+        "publicOrAccessKey": "ABC123",
+        "secretOrPrivateKey": "321CBA",
+        "options": {
+            "algorithm": "HS256",
+            "clockTolerance": 300
+        }
+    }
+}
