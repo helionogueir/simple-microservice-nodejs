@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "30108534-b9ae-448c-be1f-739daa826246",
+		"name": "simple-microservice-nodejs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "OPTIONS | simple-microservice-nodejs",
+			"request": {
+				"method": "OPTIONS",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://172.17.0.3/simple-microservice-nodejs/user/v0.0.1/id/:id",
+					"protocol": "http",
+					"host": [
+						"172",
+						"17",
+						"0",
+						"3"
+					],
+					"path": [
+						"simple-microservice-nodejs",
+						"user",
+						"v0.0.1",
+						"id",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET | simple-microservice-nodejs",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDM4NjA4ODYsInB1YmxpY09yQWNjZXNzS2V5IjoiQUJDMTIzIiwiaWF0IjoxNTQzODYwODI2fQ.wsVfMk1v9PreobgoWCaXhpUZkwP-wG71KRch5Vepgds",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://172.17.0.3/simple-microservice-nodejs/user/v0.0.1/id/1",
+					"protocol": "http",
+					"host": [
+						"172",
+						"17",
+						"0",
+						"3"
+					],
+					"path": [
+						"simple-microservice-nodejs",
+						"user",
+						"v0.0.1",
+						"id",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
